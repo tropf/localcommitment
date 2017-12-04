@@ -12,3 +12,4 @@ include_directories("${PROJECT_SOURCE_DIR}/extern")
 add_executable(localcommitment src/main.cpp)
 
 install(TARGETS localcommitment DESTINATION bin)
+install(SCRIPT "${PROJECT_SOURCE_DIR}/post_install.cmake")
