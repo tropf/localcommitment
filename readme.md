@@ -69,7 +69,7 @@ sudo pacman -S cmake
 Follow the default cmake path.
 
 ```bash
-$ git clone repo && cd repo
+$ git clone https://github.com/tropf/localcommitment && cd localcommitment
 $ mkdir build && cd build
 $ cmake ..
 $ make
@@ -131,4 +131,4 @@ Commitmessages: mainly ngerakines, and a lot of [other contributors](https://git
 This thing probably breakes down on emojis. If you manage to do that, github issues and pull requests are welcome.
 
 ## Github
-Find this project on [Github](https://).
+Find this project on [Github](https://github.com/tropf/localcommitment).
